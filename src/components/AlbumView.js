@@ -4,6 +4,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {useState} from "react"
  
+
 function AlbumView() {
     const { id } = useParams()
     const [ albumData, setAlbumData ] = useState([])
@@ -15,5 +16,6 @@ function AlbumView() {
         </div>
     )
 }
+
 
 export default AlbumView
